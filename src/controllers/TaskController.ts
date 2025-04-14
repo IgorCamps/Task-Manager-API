@@ -16,7 +16,7 @@ export class TaskController {
     await taskRepo.save(task);
 
     return res.status(201).json(task);
-  }
+  } 
 
   async list(req: Request, res: Response) {
     const taskRepo = AppDataSource.getRepository(Task);
