@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Compilação TypeScript
+*.tsbuildinfo
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+
+# Docker
+docker-compose.override.yml
+
+# Sistema
+.DS_Store
+Thumbs.db
